@@ -2,7 +2,7 @@
 
 /**
  * Prints string
-/*
+ */
 
 int main(void)
 {
