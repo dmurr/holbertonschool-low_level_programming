@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * Prints string
+ * main - Prints string
+ *
+ * Return: if executes properly return 0
  */
 
 int main(void)
