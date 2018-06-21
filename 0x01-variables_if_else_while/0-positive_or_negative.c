@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - Prints whether randomly generated number
- * is positive, negative, or zero.
+ * main - determines if rand is positive,
+ * negative, or zero
  *
- * Return: 0 if successful
+ * Return: 0 is succcess
  */
 
 int main(void)
@@ -22,6 +22,6 @@ int main(void)
 		printf(" is negative");
 	else
 		printf(" is zero");
-	printf("/n")
+	printf("/n");
 	return (0);
 }
