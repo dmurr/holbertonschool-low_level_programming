@@ -1,1 +1,1 @@
-placeholder
+Holberton School Low level programming.
