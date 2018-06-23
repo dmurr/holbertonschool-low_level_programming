@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints 00 - 99 separated by commas
+ * main - prints 00 - 99
+ * skip same combos (ex. if 01 displayed skip 10)
+ * skip pairs that have the same num (ex. 22, 55, etc.)
  *
  * Return: 0 is successful
  */
