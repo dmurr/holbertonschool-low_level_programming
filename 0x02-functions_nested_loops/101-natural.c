@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
+ * main - prints sum of natural number under 1024
  *
- *
+ * Return: 0 successful
  */
 int main(void)
 {
