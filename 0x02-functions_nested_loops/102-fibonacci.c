@@ -15,12 +15,12 @@ int main(void)
         b = 2;
         printf("%ld, ", a);
         printf("%ld, ", b);
-        for (i = 1; i <= 50; i++)
+        for (i = 1; i <= 48; i++)
         {
                 c = a + b;
                 a = b;
                 b = c;
-		if (i < 50)
+		if (i < 48)
 			printf("%ld, ", c);
 		else
 			printf("%ld", c);
