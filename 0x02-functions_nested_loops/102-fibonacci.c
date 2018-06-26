@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - 
+ * main - prints first 50 fib numbers separated by commas. 
  *
  */
 int main(void)
