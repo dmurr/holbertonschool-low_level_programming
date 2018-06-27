@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include "holberton.h"
 
 /**
- * print_last_digit - finds last digit of number
- * @i: number last digit is from
+ * print_last_digit - find the last digit of any number
+ * @n: number of which I take the last of
  *
- * Return: last digit of i
+ * Return: the last digit of passed parameter
  */
-int print_last_digit(int i)
+int print_last_digit(int n)
 {
-	return (i % 10);
+	return (n % 10);
 }
