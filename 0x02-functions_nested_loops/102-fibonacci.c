@@ -11,7 +11,7 @@ int main(void)
 	long b;
 	long c;
 	int i;
-	
+
 	a = 1;
 	b = 2;
 	printf("%ld, ", a);
@@ -21,7 +21,7 @@ int main(void)
 		c = a + b;
 		a = b;
 		b = c;
-		if( i < 48)
+		if (i < 48)
 			printf("%ld, ", c);
 		else
 			printf("%ld", c);
