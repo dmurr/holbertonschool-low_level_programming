@@ -17,19 +17,21 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 			continue;
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 			continue;
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 			continue;
 		}
+		if (i < 100 || i > 1)
+			printf(" ");
 		printf("%d ", i);
 	}
 	printf("\n");
