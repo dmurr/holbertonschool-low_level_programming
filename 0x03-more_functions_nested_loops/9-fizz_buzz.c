@@ -30,9 +30,11 @@ int main(void)
 			printf("Buzz");
 			continue;
 		}
-		if (i < 100 || i > 1)
+		if (i > 1)
 			printf(" ");
-		printf("%d ", i);
+		printf("%d", i);
+		if (i < 100)
+			printf(" ");
 	}
 	printf("\n");
 	return (0);
