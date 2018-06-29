@@ -2,6 +2,7 @@
 
 /**
  * print_diagonal - displays diagonal line of length n
+ * @n: size of diagonal
  *
  */
 void print_diagonal(int n)
