@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
- * leet -
- * @str:
+ * leet - replaces specific letters with specific numbers
+ * @str: string to be updated
  *
- * Return:
+ * Return: returns new string with changes
  */
 char *leet(char *str)
 {
