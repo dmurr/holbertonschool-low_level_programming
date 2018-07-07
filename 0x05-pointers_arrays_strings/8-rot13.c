@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
+ * rot13 - converts string to rot13 and back
+ * @str: string to be converted
  *
- *
- *
- *
+ * Return: updated string
  */
 char *rot13(char *str)
 {
