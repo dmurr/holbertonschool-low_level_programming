@@ -9,7 +9,7 @@ These programs will be compiled with gcc 4.8.4 using the flags -Wall -Werror -We
 Syntax will be evaluated using the Betty style.
 
 ## Repository Breakdown
-Once cloned over, the repository will contain the following files:
+This repository contains the following files:
 
 |   **File**    |  **Decription**                       |
 |---------------|---------------------------------------|
@@ -25,9 +25,6 @@ Once cloned over, the repository will contain the following files:
 | 101-magic.c | Alter provided code so that the program prints a[2] = 98 |
 
 ## How to Use
-
-## Known Bugs
-There are no known bugs at the time.
 
 ### Author
 *Diego Murray* - [Github](https://github.com/dmurr) || [Twitter](https://twitter.com/diegocmurray)
