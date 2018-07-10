@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _strspn - counts initial part of s which consists entirely of bytes in accept
+ * _strspn - counts bytes  of s which consists entirely of bytes in accept
  * @s: string to be checked for consecutive acceptable characters
  * @accept: acceptable characters
  *
