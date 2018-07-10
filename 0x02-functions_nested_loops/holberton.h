@@ -1,18 +1,10 @@
 #ifndef _HOLBERTON_H_
 #define _HOLBERTON_H_
 
-/**
- * _putchar - writes a character
- * @char: the character to print
- *
- */
 void _putchar(char);
 
 
-/**
- * print_alphabet - prints alphabet with newline
- *
- */
+
 void print_alphabet(void);
 
 
