@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _strbrk - find first occurence of accept in string
+ * _strpbrk - find first occurence of accept in string
  * @s: string being searched
  * @accept: what is being searched for
  *
