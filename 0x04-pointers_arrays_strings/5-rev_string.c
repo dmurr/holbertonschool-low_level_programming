@@ -20,6 +20,12 @@ void rev_string(char *s)
 	}
 }
 
+/**
+ * _strlen - counts characters in string
+ * @s: string to be counted
+ *
+ * Return: character count
+ */
 int _strlen(char *s)
 {
 	int i;
