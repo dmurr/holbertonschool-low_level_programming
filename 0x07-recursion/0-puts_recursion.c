@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _puts_recursion -
+ * _puts_recursion - recursively prints a string
  * @s: string to be printed
  *
  *
