@@ -1,9 +1,11 @@
 #include "holberton.h"
 
 /**
- * _pow_recursion -
+ * _pow_recursion - finds power
+ * @x: multiplier
+ * @y: number of times it multiplies
  *
- *
+ * Return: power
  */
 int _pow_recursion(int x, int y)
 {
