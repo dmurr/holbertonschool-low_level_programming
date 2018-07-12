@@ -1,10 +1,12 @@
 #include "holberton.h"
 
 /**
+ * is_prime_number - checks if int is prime
+ * primer - c
+ *@x: diviser
+ * @n: number
  *
- *
- *
- *
+ * Return: 0 is prime, 1 is not prime
  */
 int primer(int x, int n);
 
@@ -15,6 +17,12 @@ int is_prime_number(int n)
 	return (primer(2, n));
 }
 
+/**
+ * primer - checks if int is prime
+ * @x: diviser
+ * @n: number
+ * Return: 0 is Prime, 1 is not prime
+ */
 int primer(int x, int n)
 {
 	if (n % x == 0 && x != n)
