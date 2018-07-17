@@ -12,7 +12,7 @@ Syntax will be evaluated using the Betty style.
 This repository contains the following files:
 |   **File**    |  **Decription**                       |
 |---------------|---------------------------------------|
-| 0-holberton.c | Uses custom header file and w/ custom putchar to print string. |
+| 0-holberton.c | Uses custom putchar to print string. |
 | 1-alphabet.c | Prints lowercase alphabet with newline. |
 | 2-print_alphabetx10.c | Prints alphabet ten times. |
 | 3-islower.c | Checks if character is lowercase. |
