@@ -2,7 +2,15 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int _strlen(char *s);
+int _strlen(char *s)
+{
+	int i;
+	int count = 0;
+
+	for (i = 0; s[i] != '\0'; i++)
+		count++;
+	return (count);
+}
 
 /**
  * _strdup - makes copy of string parameter in memory
