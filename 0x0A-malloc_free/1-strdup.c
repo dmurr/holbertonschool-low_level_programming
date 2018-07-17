@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/**
+ * _strlen - find length of string
+ * @s: string to find length of
+ *
+ * Return: length
+ */
 int _strlen(char *s)
 {
 	int i;
