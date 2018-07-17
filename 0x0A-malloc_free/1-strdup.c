@@ -1,0 +1,31 @@
+#include "holberton.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+int _strlen(char *s);
+
+/**
+ * _strdup - makes copy of string parameter in memory
+ * @str: string to copy
+ *
+ * Return: pointer to copy string
+ */
+char *_strdup(char *str)
+{
+	char *s;
+	int i;
+
+
+	if (str == NULL)
+		return (NULL);
+
+	s = malloc(sizeof(char) * _strlen(str) + 1);
+
+	if (s == NULL)
+		return (NULL);
+
+	for (i = 0; i <= _strlen(str); i++)
+		s[i] = str[i];
+
+	return (s);
+}
