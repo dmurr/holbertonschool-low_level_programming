@@ -11,7 +11,7 @@ Syntax will be evaluated using the Betty style.
 ## Repository Breakdown
 This repository contains the following files:
 |   **File**    |  **Decription**                       |
-|---------------|---------------------------------------|
+|-------------------|---------------------------------------|
 | 0-holberton.c | Uses custom putchar to print string. |
 | 1-alphabet.c | Prints lowercase alphabet with newline. |
 | 2-print_alphabetx10.c | Prints alphabet ten times. |
