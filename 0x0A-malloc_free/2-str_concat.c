@@ -38,11 +38,11 @@ char *_strcpy(char *dest, char *src)
 
 
 /**
- * str_concat -
- * @s1:
- * @s2:
+ * str_concat - concats two string parameters and allocates memory for it
+ * @s1: string one
+ * @s2: string 2
  *
- * Return:
+ * Return: pointer to string
  */
 char *str_concat(char *s1, char *s2)
 {
@@ -62,7 +62,7 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 
 	for (i = 0; s1[i] != '\0'; i++)
-                newstr[i] = s1[i];
+		newstr[i] = s1[i];
 
 	for (j = 0; s2[j] != '\0'; j++)
 	{
