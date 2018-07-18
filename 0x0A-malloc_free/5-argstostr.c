@@ -60,7 +60,7 @@ char *argstostr(int ac, char **av)
 		length += _strlen(av[i]);
 	}
 	length += ac;
-	newstr = malloc(sizeof(char *) * length + 1);
+	newstr = malloc(sizeof(char) * length + 1);
 	if (newstr == NULL)
 		return (NULL);
 
