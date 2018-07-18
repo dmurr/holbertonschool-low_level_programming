@@ -4,17 +4,17 @@
 
 /**
  * alloc_grid - allocated 2D array in memory
- * @width:
- * @length:
+ * @width: width of grid
+ * @height: height of grid
  *
- * Return:
+ * Return: pointer to memory allocation
  */
 int **alloc_grid(int width, int height)
 {
 	int i, j;
 	int **arr;
 
-	if (width < 0 || height < 0)
+	if (width <= 0 || height <= 0)
 		return (NULL);
 
 	arr = (int **)malloc(sizeof(int *) * width);
