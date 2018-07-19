@@ -3,6 +3,7 @@
 
 
 void *malloc_checked(unsigned int b);
+char *string_nconcat(char *s1, char *s2, unsigned int n);
 
 char *create_array(unsigned int size, char c);
 char *_strdup(char *str);
@@ -18,7 +19,7 @@ int _isalpha(int c);
 int _abs(int n);
 int _isupper(int c);
 int _isdigit(int c);
-int _strlen(char *s);
+unsigned int _strlen(char *s);
 void _puts(char *s);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
