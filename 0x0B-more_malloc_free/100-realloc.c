@@ -2,10 +2,12 @@
 #include <stdlib.h>
 
 /**
- * _realloc -
+ * _realloc - reallocates a new memory size for string
+ * @ptr: pointer to original string
+ * @old_size: byte size of original string
+ * @new_size: byte size of new memory allocation
  *
- *
- *
+ * Return: pointer
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
