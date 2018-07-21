@@ -1,4 +1,4 @@
-# 0x0A. C - malloc, free
+# 0x0B. C - More malloc, free
 
 This project is about learning to use memory allocation
 
@@ -13,14 +13,12 @@ This repository contains the following files:
 
 |   **File**    |  **Decription**                       |
 |---------------|---------------------------------------|
-| 0-create_array.c | Function creates an array of unkown size and initializes. |
-| 1-strdup.c | Returns a pointer to copy of string parameter. |
-| 2-strlen.c | Function that finds the length of a string. |
-| 3-puts.c | Function that puts a string. |
-| 4-print_rev.c | Function that prints the reverse of a string. |
-| 5-rev_string.c | Function that reverses a string. |
-| 6-puts2.c | Function that puts every other character in a given string. |
-| 7-puts_half.c | Function that puts second half of a string. |
+| 0-malloc_checked.c | Checks if malloc properly allocated memory. |
+| 1-string_nconcat.c | Concatenates n byted of string1 to string2 and allocates new string to  memory. |
+| 2-calloc.c | Allocates memory for an array and initializes. |
+| 3-array_range.c | Function that allocated memory for range and initializes values. |
+| 100-realloc.c | Reallocates a new memory size for string. |
+
 
 
 ### Author
