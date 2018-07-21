@@ -18,7 +18,7 @@ This repository contains the following files:
 | 2-str_concat.c | Copies a src string into a dest string. |
 | 3-alloc_grid.c | Allocated 2D array in memory. |
 | 4-free_grid.c | Frees 2D array from memory. |
-| 5-argtostr.c | Allocate space in memory for strings. |
+| 5-argtostr.c | Allocate space in memory for argument strings. |
 | holberton.h | Contains prototypes of functions used within files. |
 
 
