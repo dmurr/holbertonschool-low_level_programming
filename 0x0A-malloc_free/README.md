@@ -13,14 +13,13 @@ This repository contains the following files:
 
 |   **File**    |  **Decription**                       |
 |---------------|---------------------------------------|
-| 0-create_array.c | Function creates an array of unkown size and initializes. |
-| 1-swap.c | Function that swaps the value of two integers. |
-| 2-strlen.c | Function that finds the length of a string. |
-| 3-puts.c | Function that puts a string. |
-| 4-print_rev.c | Function that prints the reverse of a string. |
-| 5-rev_string.c | Function that reverses a string. |
-| 6-puts2.c | Function that puts every other character in a given string. |
-| 7-puts_half.c | Function that puts second half of a string. |
+| 0-create_array.c | Allocates space in memory for array and initializes it. |
+| 1-strdup.c | Makes copy of passed string in memory. |
+| 2-str_concat.c | Copies a src string into a dest string. |
+| 3-alloc_grid.c | Allocated 2D array in memory. |
+| 4-free_grid.c | Frees 2D array from memory. |
+| 5-argtostr.c | Allocate space in memory for strings. |
+| holberton.h | Function that puts second half of a string. |
 
 
 ### Author
