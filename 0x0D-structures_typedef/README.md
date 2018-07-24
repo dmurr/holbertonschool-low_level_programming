@@ -13,11 +13,11 @@ This repository contains the following files:
 
 |   **File**    |  **Decription**                       |
 |---------------|---------------------------------------|
-| 0-dog.h | Header file containing in dog struct. |
-| 1-string_nconcat.c | Concatenates n byted of string1 to string2 and allocates new string to  memory. |
-| 2-calloc.c | Allocates memory for an array and initializes. |
-| 3-array_range.c | Function that allocated memory for range and initializes values. |
-| 100-realloc.c | Reallocates a new memory size for string. |
+| 1-init_dog.c | Initializes struct. |
+| 2-print_dog.c | Checks for nulls and prints struct. |
+| 4-new_dog.c | Creates new struct of type dog. |
+| 5-free_dog.c | Checks for null parameter and frees struct and its members. |
+| dog.h | Header file with prototypes for functions used and struct declarations. |
 
 
 
