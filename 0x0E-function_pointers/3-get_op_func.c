@@ -6,6 +6,7 @@
  * get_op_func - gets operand function
  * @s: operand symbol
  *
+ * Return: pointer to operand function
  */
 int (*get_op_func(char *s))(int, int)
 {
