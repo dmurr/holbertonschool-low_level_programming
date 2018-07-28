@@ -15,6 +15,12 @@ void print_all(const char * const format, ...)
 	va_list valist;
 	char *str;
 
+	while (format == NULL)
+	{
+		printf("\n");
+		return;
+	}
+
 	va_start(valist, format);
 	while (format[i] != '\0')
 	{
@@ -32,15 +38,10 @@ void print_all(const char * const format, ...)
 		case 's':
 			str = va_arg(valist, char*);
 			if (str)
-			{
 				printf("%s", str);
-				break;
-			}
 			else
-			{
 				printf("(nil)");
-				break;
-			}
+			break;
 		default:
 			count++;
 		}
