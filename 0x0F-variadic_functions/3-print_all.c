@@ -1,7 +1,21 @@
 #include "stdarg.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+
+/**
+ * _strlen - finds length of string
+ * @s: pointer to first character in a given string
+ *
+ * Return: length of any given string
+ */
+unsigned int _strlen(const char *s)
+{
+	int i;
+	unsigned int count = 0;
+
+	for (i = 0; s[i] != '\0'; i++)
+		count++;
+	return (count);
+}
 
 /**
  * print_all - prints all arguments
@@ -45,7 +59,7 @@ void print_all(const char * const format, ...)
 		default:
 			count++;
 		}
-		if ((i < strlen(format) - (count)) && (format[i] == 'c' ||
+		if ((i < _strlen(format) - (count)) && (format[i] == 'c' ||
 						       format[i] == 'i' ||
 						       format[i] == 'f' ||
 						       format[i] == 's'))
