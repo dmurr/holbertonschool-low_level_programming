@@ -20,7 +20,7 @@ void print_all(const char * const format, ...)
 	}
 
 	va_start(valist, format);
-	while (format[i] != '\0')
+	while (format[i])
 	{
 		switch (format[i])
 		{
