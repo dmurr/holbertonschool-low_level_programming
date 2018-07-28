@@ -2,22 +2,6 @@
 #include <stdio.h>
 
 /**
- * _strlen - finds length of string
- * @s: pointer to first character in a given string
- *
- * Return: length of any given string
- */
-unsigned int _strlen(const char *s)
-{
-	int i;
-	unsigned int count = 0;
-
-	for (i = 0; s[i] != '\0'; i++)
-		count++;
-	return (count);
-}
-
-/**
  * print_all - prints all arguments
  * @format: types of arguments
  *
@@ -25,7 +9,6 @@ unsigned int _strlen(const char *s)
 void print_all(const char * const format, ...)
 {
 	unsigned int i = 0;
-	int count = 0;
 	va_list valist;
 	char *str;
 
@@ -57,12 +40,10 @@ void print_all(const char * const format, ...)
 				printf("(nil)");
 			break;
 		default:
-			count++;
+			i++;
+			continue;
 		}
-		if ((i < _strlen(format) - (count)) && (format[i] == 'c' ||
-						       format[i] == 'i' ||
-						       format[i] == 'f' ||
-						       format[i] == 's'))
+		if (format[i + 1] != '\0')
 			printf(", ");
 		i++;
 	}
