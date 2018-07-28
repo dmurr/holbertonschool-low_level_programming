@@ -1,6 +1,4 @@
-#include "stdarg.h"
 #include "variadic_functions.h"
-#include <stdio.h>
 
 /**
  * print_all - prints all arguments
@@ -36,10 +34,9 @@ void print_all(const char * const format, ...)
 		case 's':
 			str = va_arg(valist, char*);
 
-			if (str)
-				printf("%s", str);
-			else
+			if (str == NULL)
 				printf("(nil)");
+			printf("%s", str);
 			break;
 		default:
 			i++;
