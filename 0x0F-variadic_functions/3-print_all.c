@@ -34,9 +34,13 @@ void print_all(const char * const format, ...)
 		case 's':
 			str = va_arg(valist, char*);
 
-			if (str == NULL)
-				printf("(nil)");
-			printf("%s", str);
+			if (str)
+			{
+				printf("%s", str);
+				break;
+			}
+			else
+				print("(nil)");
 			break;
 		default:
 			i++;
