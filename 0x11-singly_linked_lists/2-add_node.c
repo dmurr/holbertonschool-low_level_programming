@@ -27,10 +27,14 @@ list_t *add_node(list_t **head, const char *str)
 	node->len = i;
 	node->next = NULL;
 
-
-	temp = *head;
-	*head = node;
-	node->next = temp;
+	if (!(*head))
+		*head = node;
+	else
+	{
+		temp = *head;
+		*head = node;
+		node->next = temp;
+	}
 
 	return (node);
 
