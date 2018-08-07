@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * inert_nodeint_at_index - inserts node at index idx with value n
+ * insert_nodeint_at_index - inserts node at index idx with value n
  * @head: pointer to list head
  * @idx: desired index for new node
  * @n: node contains value n
