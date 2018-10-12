@@ -11,8 +11,8 @@ unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
 	unsigned long int idx;
 
-	if (!key || strcmp(key, "") != 0 || size == 0)
-	    return (NULL);
+	if (size == 0 || !*key ||strcmp((const char *)key, "") != 0)
+		return (0);
 
 	idx = hash_djb2(key) % size;
 	return (idx);
