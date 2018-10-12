@@ -66,7 +66,7 @@ hash_node_t *add_node(hash_node_t **head, const char *key, const char *value)
 		free(new);
 		return (NULL);
 	}
-	new->next = NULL;
+	new->next = *head;
 	*head = new;
 	return (*head);
 }
