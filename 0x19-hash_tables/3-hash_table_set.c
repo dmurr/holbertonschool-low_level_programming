@@ -8,7 +8,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	unsigned long int idx;
 	hash_node_t *temp;
 
-	if (!*key || strcmp((const char *)key, "") == 0)
+	if (!*key)
 		return (0);
 
 	idx = key_index((unsigned char *)key, ht->size);
