@@ -17,6 +17,10 @@ This repository contains the following files:
 | 1-insertion_sort_list.c | insertion sort list. |
 | 2-selection_sort.c | selection sort |
 | 3-quick_sort.c | quick sort |
+| 0-O | best case, average case, worst case |
+| 1-O | \" |
+| 2-O | \" |
+| 3-O | \" |
 | sort.h | contains prototypes |
 
 
