@@ -17,27 +17,6 @@ void swap(int *p1, int *p2)
 }
 
 /**
- * print_array - prints an array
- * @array: array to be printed
- * @size: size of array
- *
- */
-void print_array(int *array, int size)
-{
-	int i;
-
-	for (i = 0; i < size; i++)
-	{
-		if (i < size - 1)
-			printf("%d, ", array[i]);
-		else
-			printf("%d", array[i]);
-	}
-	printf("\n");
-}
-
-
-/**
  * bubble_sort - sorts array
  * @array: thing to be sorted
  * @size: size of thing
