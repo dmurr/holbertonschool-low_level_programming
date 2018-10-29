@@ -23,7 +23,6 @@ void print_list(const listint_t *list);
 void print_array(int *array, int size);
 
 void bubble_sort(int *array, size_t size);
-void swap(int *p1, int *p2);
 
 
 #endif /* SORT_H */
