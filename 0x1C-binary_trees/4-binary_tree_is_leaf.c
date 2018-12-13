@@ -9,8 +9,10 @@
  */
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
+	if (!node)
+		return (0);
 
-	if (!node || !node->right && !node->left)
+	if (!node->right && !node->left)
 		return (1);
 	return (0);
 }
