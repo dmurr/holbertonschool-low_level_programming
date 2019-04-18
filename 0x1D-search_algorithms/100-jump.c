@@ -12,7 +12,6 @@ int min(int a, int b)
 	return (a < b ? a : b);
 }
 
-
 /**
  * jump_search - searches sorted array using jump sort algorithm
  * @array: pointer to the first index in array
@@ -27,12 +26,9 @@ int jump_search(int *array, size_t size, int value)
 	unsigned int right = 0;
 	unsigned int i = 0;
 
-	if(!array)
-		return(-1);
+	if (!array)
+		return (-1);
 
-	/* Searches by blocks rather than 1-by-1
-	   Breaks once block contains value
-	*/
 	while (left < size && array[left] <= value)
 	{
 		right = min(size - 1, left + jump);
@@ -51,18 +47,19 @@ int jump_search(int *array, size_t size, int value)
 
 	if (left >= size || array[left] > value)
 	{
+		printf("Value found between indexes [%d] and [%d]\n", right, left);
+		printf("Value checked array[%d] = [%d]\n", right, array[right]);
 		return (-1);
 	}
 
-	/* if jump passed max index in array set right to max */
 	right = min(size - 1, right);
 
 	for (i = left; i <= right; i++)
 	{
 		printf("Value checked array[%d] = [%d]\n", left, array[i]);
 		if (array[i] == value)
-			break;
+			return (i);
 	}
 
-	return (i);
+	return (-1);
 }
